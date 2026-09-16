@@ -1,0 +1,41 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  color: #5c4a2f;
+  background-color: #fffdf0;
+}
+
+
+/* =========================
+   ヘッダー
+========================= */
+
+header {
+  width: 100%;
+  background-color: #fff3a6;
+  border-bottom: 4px solid #f2cf4a;
+  box-shadow: 0 2px 8px rgba(150, 120, 20, 0.15);
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
